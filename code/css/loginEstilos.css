@@ -1,0 +1,213 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.login {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    position: absolute;
+    width: 100%;
+    left: calc(50% - 200px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 9;
+    justify-content: space-around;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.icon {
+    cursor: pointer;
+    margin: 25px 0px;
+}
+
+.textEmail {
+    margin: 0px;
+    margin: 15px 0px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 31px;
+    font-size: 24px;
+    letter-spacing: -0.4px;
+}
+
+.textEmailbor {
+    margin: 24px 0px;
+}
+
+.sigMail {
+    margin: 15px 0px;
+}
+
+
+.ingre_Datos {
+    position: relative;
+}
+
+.mail {
+    position: absolute;
+    top: 17px;
+    left: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: normal;
+    word-spacing: normal;
+    color: rgb(124, 152, 167);
+    transition: color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, transform 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    animation: 0s ease 0s 1 normal none running none;
+}
+
+.botonMail {
+    font-family: Hind, sans-serif;
+    border: 1px solid rgb(124, 152, 167);
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 12px;
+    height: 48px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    outline: none;
+    transition: padding-top 200ms cubic-bezier(0, 0, 0.2, 1) 0ms, font-size 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    animation: 0s ease 0s 1 normal none running none !important;
+}
+
+.continuar {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 0px 12px;
+    border-radius: 12px;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(255, 85, 0);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    line-height: 48px;
+}
+
+.o_ {
+    width: 80%;
+    height: 26px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.o_>hr {
+    min-width: 120px;
+    border-top: 1px solid rgb(203, 214, 220);
+}
+
+.importan {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 101, 177) !important;
+}
+
+.importan>img {
+    margin-left: 10px;
+}
+
+img {
+    border-style: none;
+}
+
+.google {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(203, 214, 220);
+}
+
+.signi {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 0px 12px;
+    border-radius: 12px;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    background-color: inherit;
+    color: inherit;
+    line-height: 48px;
+}
+
+.pregunta {
+    padding: 15px;
+    background: rgb(243, 247, 248);
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.pregunta>p {
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px;
+    text-align: center;
+}
+
+.preunt2 {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 0px 12px;
+    border: 0ch;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    background-color: transparent;
+    color: rgb(255, 85, 0);
+    width: auto;
+    line-height: 25px;
+    height: 25px;
+}
+
+.final {
+    border-radius: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    border: 15px solid rgb(255, 219, 94);
+    right: -30%;
+    top: 2%;
+    user-select: none;
+}
